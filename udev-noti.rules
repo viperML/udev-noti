@@ -1,0 +1,4 @@
+ACTION=="add",    RUN{program}+="/bin/sh /usr/local/share/udev-noti.sh -a add    -p '%p' -b '$attr{busnum}' -d '$attr{devnum}'"
+ACTION=="remove", RUN{program}+="/bin/sh /usr/local/share/udev-noti.sh -a remove -p '%p' -b '$attr{busnum}' -d '$attr{devnum}'"
+
+
