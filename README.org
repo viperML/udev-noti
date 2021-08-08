@@ -1,0 +1,13 @@
+#+TITLE: udev-noti
+
+* About
+This project aims to show desktop notifications when the user plugs in a new device or removes it. The implementation should not be complex with unnecesary features.
+
+* Installation
+- Copy udev-noti.sh to /usr/local/share/ and set execution permissions for root
+- Copy udev-noti.rules to /etc/udev/rules.d/
+
+**  TODO Automated installation with makefile
+
+*   Attribution
+This project is heavily inspired by https://github.com/dimonomid/my-udev-notify, which I found too complex for this task.
