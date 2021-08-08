@@ -3,6 +3,12 @@
 * About
 This project aims to show desktop notifications when the user plugs in a new device or removes it. The implementation should not be complex with unnecesary features.
 
+When a new device is plugged in, if it matches the udev rules, it will then execute a script which sends the notifications. The path to the script is hardcoded into /usr/local/share.
+
+* Dependencies
+- udev (untested with eudev)
+- libnotify
+
 * Installation
 #+BEGIN_SRC shell
 # ./install.sh
