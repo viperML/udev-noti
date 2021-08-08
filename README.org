@@ -5,7 +5,7 @@ This project aims to show desktop notifications when the user plugs in a new dev
 
 * Installation
 #+BEGIN_SRC shell
-\# ./install.sh
+# ./install.sh
 #+END_SRC
 
 or perform its actions manually
